@@ -1,0 +1,262 @@
+/*  
+    Name:Kamal M I Alqedra
+    ID:220709704  
+*/
+
+/* Reset and apply global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Body background and minimum height */
+body {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+/* Header styles for background, shadow, and padding */
+.header {
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem;
+}
+
+/* Header content arrangement */
+.header_content {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo section styles */
+.logo_section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 1% ;
+  width: 15%;
+}
+
+.logo_section svg {
+  min-width: 50px;
+  min-height: 50px;
+  max-width: 50px;
+  min-height: 50px;
+}
+
+/* Website name styling */
+.website_name {
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+
+/* Phrase styling for tagline */
+.phrase {
+  justify-content: space-around;
+  font-style: italic;
+  color: #666;
+}
+
+/* Main content layout with flex and spacing */
+.main_content {
+  max-width: 100%;
+  margin: 0.5rem 0.5rem;
+  padding: 0 0.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Card component styling */
+.card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin: 1rem;
+  min-width: 300px;
+}
+
+
+/* Currency list layout with flex direction */
+.currency_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-grow: 1;
+}
+
+/* Individual currency item styling */
+.currency_item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 6px;
+}
+
+/* Currency icon dimensions */
+.currency_icon {
+  width: 34px;
+  height: 34px;
+}
+
+/* Welcome section styling */
+.welcome_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-grow: 2;
+}
+
+/* Welcome title alignment */
+.welcome_title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Content section within welcome card */
+.content_section {
+  margin-bottom: 1.5rem;
+}
+
+
+/* Heading styling in content sections */
+.content_section h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+
+/* User section layout and flex settings */
+.user_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-grow: 1;
+}
+
+
+/* Profile card styling */
+.profile_card {
+  text-align: center;
+}
+
+/* Profile image styling */
+.profile_image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 4px solid #ffeeba;
+  margin: 0 auto 1rem;
+}
+
+/* Balance card styling */
+.balance_card {
+  text-align: center;
+}
+
+/* Balance amount font styling */
+.balance_amount {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Wallet icon dimensions */
+.wallet_icon {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+
+/* Transfer card styling */
+.transfer_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+/* Transfers list layout */
+.transfers_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  /* gap: 0.75rem; */
+}
+
+/* Individual transfer item styling */
+.transfer_item {
+  background: #f8f9fa;
+  padding: 0.75rem;
+  border-radius: 6px;
+  text-align: center;
+  color: #28a745;
+  font-weight: 600;
+  margin: 2%;
+}
+
+/* Styling for negative transfer values */
+.red {
+  color: red;
+}
+
+/* Footer styling */
+.footer {
+  background: white;
+  margin-top: 3rem;
+  padding: 2rem;
+}
+
+/* Footer content arrangement */
+.footer_content {
+  margin: 0 auto;
+}
+
+
+/* Footer social media boxes styling */
+.footer_boxes {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+.footer_box {
+  max-width: 30%;
+  background: #f8f9fa;
+  border-radius: 8px;
+  text-align: center;
+  padding: 3%;
+}
+
+.footer_box span {
+  text-align: center;
+}
+
+.copyright {
+  text-align: center;
+  color: #666;
+}
+
+/* Media query for responsive layout adjustments */
+
+@media (max-width: 800px) {
+  .header_content div {
+    flex: 1;
+  }
+
+  .main_content {
+    flex-direction: column;
+  }
+  .currency_item {
+    margin: 1%;
+  }
+}
