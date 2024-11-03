@@ -36,7 +36,6 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-right: 1% ;
   width: 15%;
 }
 
@@ -52,6 +51,7 @@ body {
   font-size: 1.25rem;
   font-weight: bold;
   line-height: 1.2;
+  padding-left: 2%;
 }
 
 
@@ -110,7 +110,7 @@ body {
 .welcome_section {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-grow: 2;
 }
 
@@ -123,6 +123,12 @@ body {
 /* Content section within welcome card */
 .content_section {
   margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1%;
+  align-items: center;
+  background:#f8f9fa ;
 }
 
 
@@ -130,6 +136,15 @@ body {
 .content_section h2 {
   margin-bottom: 0.5rem;
   font-size: 1.1rem;
+}
+
+
+.content_images img{
+  margin: 2%;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  max-height: 301px;  
 }
 
 
